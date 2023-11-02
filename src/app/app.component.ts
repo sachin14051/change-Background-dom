@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dummy';
+  onChange(){
+    document.body.style.backgroundColor = "black"
+  }
 }
